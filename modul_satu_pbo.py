@@ -3,6 +3,7 @@
 # Semua Mahasiswa diharuskan berkontribusi pada modul ini
 # Kontribusi berupa membuat class dan fungsi (lihat arahan lengkap di : 
 
+# ini class test dari elyas: 
 class test:
     def __init__(self, m):
         self.__m=m
