@@ -11,12 +11,9 @@ class test:
     def mes(self):
         return self.__m;
         
-class test:
-    def __init__(self, m):
-        self.__m=m
-    
-    def mes(self):
-        return self.__m;
+# ini Kontribusi dari Ikhwan 
+def batas():
+    print("-"*35)
 
 # silahkan lanjutkan dengan fungsi dan calss anda dibawah
 # pastikan untuk menguji class dan fungsi yang sudah di buat disini
