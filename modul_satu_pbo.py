@@ -10,9 +10,8 @@ class test:
     
     def mes(self):
         return self.__m;
-
-# Test Pull Request dari Elyas
-class test_dua:
+        
+class test:
     def __init__(self, m):
         self.__m=m
     
