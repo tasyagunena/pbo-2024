@@ -7,6 +7,8 @@ import modul_satu_pbo as msatu
 p = msatu.test("Halo.. This is the MMMMM ");
 print ("\nTest Pesan : ", p.mes(), "\n")
 
+msatu.batas();
+msatu.batas();
 
 # silahkan uji fungsi dan class anda dibawah
 # pastikan class dan fungsi sudah anda buat di modul_satu_pbo.py
