@@ -53,7 +53,7 @@ class Mahasiswa:
 #modul_satu_pbo_Diki.py
 
 class informasi:
-    def __init__ (self, nama, npm, kelas, jurusan, hobi, umur, alamat)
+    def __init__ (self, nama, npm, kelas, jurusan, hobi, umur, alamat):
         self.n=nama
         self.npm=npm
         self.k=kelas
@@ -63,7 +63,7 @@ class informasi:
         self.a=alamat
 
     def panggil (self):
-        print(f"Nama Saya {self.nama}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a})
+        print(f"Nama Saya {self.nama}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a}")
 
 def nilai1():
     return nilai(int(input("Masukan Nilai Anda : ")))
