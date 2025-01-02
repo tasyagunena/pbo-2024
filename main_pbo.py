@@ -18,3 +18,12 @@ mahasiswa1.tambah_nilai("Fisika", 90)
 mahasiswa1.tambah_nilai("Algoritma", 78)
 
 mahasiswa1.tampilkan_info()
+
+
+#Ini Kontribusi Alifia Risman
+import modul_satu_pbo as alifia_cantik
+
+alifia_1= alifia_cantik.alifia("Alifia Risman","23086","Informatika","Info 4","Membaca")
+alifia_1.alifia1()
+
+alifia_cantik.alifia_fungsi(int(input("Masukan Nilai Anda : ")))
