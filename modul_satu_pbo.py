@@ -63,7 +63,7 @@ class informasi:
         self.a=alamat
 
     def panggil (self):
-        print(f"Nama Saya {self.nama}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a}")
+        print(f"Nama Saya {self.n}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a}")
 
 def nilai1():
     return nilai(int(input("Masukan Nilai Anda : ")))
