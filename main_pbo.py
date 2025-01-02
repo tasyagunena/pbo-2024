@@ -18,3 +18,9 @@ mahasiswa1.tambah_nilai("Fisika", 90)
 mahasiswa1.tambah_nilai("Algoritma", 78)
 
 mahasiswa1.tampilkan_info()
+
+import modul_satu_pbo as diki
+
+diki.informasi("Diki", "23093","Info 4","Informatika","Mancing","25","Sasa")
+
+nilai1()
