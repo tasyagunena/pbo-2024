@@ -48,3 +48,35 @@ class Mahasiswa:
         for item in self.nilai:
             print(f"  {item['mata_kuliah']}: {item['nilai']}")
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
+
+
+#modul_satu_pbo_Diki.py
+
+class informasi:
+    def __init__ (self, nama, npm, kelas, jurusan, hobi, umur, alamat)
+        self.n=nama
+        self.npm=npm
+        self.k=kelas
+        self.j=jurusan
+        self.h=hobi
+        self.u=umur
+        self.a=alamat
+
+    def panggil (self):
+        print(f"Nama Saya {self.nama}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a})
+
+def nilai1():
+    return nilai(int(input("Masukan Nilai Anda : ")))
+
+def nilai(nilai):
+    if nilai >=80:
+        print("A")
+    elif nilai >=70:
+        print("B")
+    elif nilai >=60:
+        print("C")
+    elif nilai >=50:
+        print("D")
+    else:
+        print("E")
+    return nilai1()
