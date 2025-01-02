@@ -23,7 +23,7 @@ mahasiswa1.tampilkan_info()
 
 
 # ini adalah kontribusi MOH. JASMIN RUMALEAN
-from modul_satu_PBO import jasmin, usia_kuliah, halo
+from modul_satu_pbo import jasmin, usia_kuliah, halo
 
 # Menampilkan pesan sambutan
 halo() 
