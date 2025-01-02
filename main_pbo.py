@@ -29,8 +29,8 @@ from modul_satu_PBO import jasmin, usia_kuliah, halo
 halo() 
 
 # Membuat objek mahasiswa
-mahasiswa_1 = jasmin("Moh Jasmin Rumalean", "121055520123082", " Teknik Informatika", 2023)
-mahasiswa_1.tampilkan_info()
+mahasiswa_2 = jasmin("Moh Jasmin Rumalean", "121055520123082", " Teknik Informatika", 2023)
+mahasiswa_2.tampilkan_info()
 
 # Menampilkan informasi mahasiswa pertama
 print("\nInformasi jasmin:")
