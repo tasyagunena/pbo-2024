@@ -20,3 +20,18 @@ mahasiswa1.tambah_nilai("Fisika", 90)
 mahasiswa1.tambah_nilai("Algoritma", 78)
 
 mahasiswa1.tampilkan_info()
+
+
+# ini adalah kontribusi MOH. JASMIN RUMALEAN
+from modul_satu_PBO import jasmin, usia_kuliah, halo
+
+# Menampilkan pesan sambutan
+halo() 
+
+# Membuat objek mahasiswa
+mahasiswa_1 = jasmin("Moh Jasmin Rumalean", "121055520123082", " Teknik Informatika", 2023)
+mahasiswa_1.tampilkan_info()
+
+# Menampilkan informasi mahasiswa pertama
+print("\nInformasi jasmin:")
+usia_kuliah("1")
