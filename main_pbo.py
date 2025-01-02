@@ -21,6 +21,7 @@ mahasiswa1.tampilkan_info()
 
 import modul_satu_pbo as diki
 
-diki.informasi("Diki", "23093","Info 4","Informatika","Mancing","25","Sasa")
+diki1=diki.informasi("Diki", "23093","Info 4","Informatika","Mancing","25","Sasa")
+diki1.panggil()
 
-nilai1()
+diki.nilai1()
