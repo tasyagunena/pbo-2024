@@ -44,3 +44,41 @@ class Mahasiswa:
         for item in self.nilai:
             print(f"  {item['mata_kuliah']}: {item['nilai']}")
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
+
+
+#ini kontribusi nurul
+class nurul:
+    def __init__(self,nama,umur,hobi,alamat,jurusan):
+        self.nama=nama
+        self.umur=umur
+        self.hobi=hobi
+        self.alamat=alamat
+        self.jurusan=jurusan
+
+    def proses (self):
+        print(f"nama saya {self.nama} umur saya {self.umur} hobi saya {self.hobi} almat saya {self.alamat} jurusan saya {self.jurusan}")
+
+def tambah(a, b):
+    return a + b
+
+def kurang(a, b):
+    return a - b
+
+def kali(a, b):
+    return a * b
+
+def bagi(a, b):
+    if b == 0:
+        return "Error: Pembagian dengan nol tidak diperbolehkan."
+    return a / b
+
+def pangkat(a, b):
+    return a ** b
+
+def akar(a):
+    if a < 0:
+        return "Error: Tidak dapat menghitung akar kuadrat dari angka negatif."
+    return a ** 0.5
+
+def input3():
+    return int(input("masukan nilai : "))
