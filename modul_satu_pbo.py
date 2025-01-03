@@ -251,6 +251,10 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+# <<<<<<< main  kardichen27
+#Ini Kontribusi La Kardi
+class kardi0:
+======= kardichen27
 # <<<<<<< main Sarif04
 
 
@@ -272,7 +276,8 @@ def sarif1(nama,npm,kelas,ipk):
     print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
 # ======= Sarif04
 #Ini Kontribusi Dari Srinagita Irwan
-class gita_c:
+class gita_c: 
+# >>>>>>> main kardichen27
     def __init__(self,nama,kelas,jurusan,npm,alamat,hobi,umur):
         self.nama=nama
         self.kelas=kelas
@@ -282,6 +287,22 @@ class gita_c:
         self.hobi=hobi
         self.umur=umur
 
+# <<<<<<< main kardichen27
+    def kardi1(self):
+        print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm {self.npm} dan alamat saya dikelurahan {self.alamat} dan hobi saya yaitu {self.hobi} sedangkan umur saya {self.umur}")
+
+def kardi_tambah(a,b):
+    print(a+b)
+
+def kardi_kurang(a,b):
+    print(a-b)
+
+def kardi_kali(a,b):
+    print(a*b)
+
+def kardi_bagi(a,b):
+    print(a/b)
+# ======= kardichen27
     def gita1(self):
         print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm saya {self.npm} alamat saya {self.alamat} dan hobi saya {self.hobi} umur saya {self.umur}")
 
@@ -301,3 +322,4 @@ def gita_bagi(a,b):
 # >>>>>>> main
 # >>>>>>> main Alifia 
 # >>>>>>> main Sarif04
+# >>>>>>> main kardichen27

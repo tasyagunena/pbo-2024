@@ -136,6 +136,18 @@ if __name__ == "__main__":
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
 
+# <<<<<<< main kardichen27
+#Ini Kontribusi La Kardi
+import modul_satu_pbo as kardi7
+
+kardi12=kardi7.kardi0("lakardi", "Info 4","informatika","23092","Fitu","Mancing","22")
+kardi12.kardi1()
+
+kardi7.kardi_tambah(9,7)
+kardi7.kardi_kurang(9,3)
+kardi7.kardi_kali(9,5)
+kardi7.kardi_bagi(9,6)
+# ======= kardichen27
 # <<<<<<< main Sarif04
 # ini kontribusi dari sarif soleman
 import modul_satu_pbo as sarif_soleman
@@ -167,3 +179,4 @@ gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : 
 
 # >>>>>>> main Alifia 
 # >>>>>>> main Sarif04
+# >>>>>>> main kardichen27
