@@ -45,6 +45,31 @@ class Mahasiswa:
             print(f"  {item['mata_kuliah']}: {item['nilai']}")
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
 
+# <<<<<<< main Alifia 
+#Ini Kontribusi Alifia Risman
+class alifia:
+    def __init__(self,nama,npm,jurusan,kelas,hobi):
+        self.n=nama
+        self.npm=npm
+        self.j=jurusan
+        self.k=kelas
+        self.h=hobi
+
+    def alifia1(self):
+        print(f"Nama Saya {self.n} Npm Saya {self.npm} Jurusan Saya {self.j} Kelas {self.k} Hobi Saya {self.h}")
+
+def alifia_fungsi(nilai):
+    if nilai >= 80:
+        print("Nilai Yang Anda Peroleh Adalah : A")
+    elif nilai >=70:
+        print("Nilai Yang Anda Peroleh Adalah : B")
+    elif nilai >=60:
+        print("Nilai Yang Anda Peroleh Adalah : C")
+    elif nilai >=50:
+        print("Nilai Yang Anda Peroleh Adalah : D")
+    else:
+        print("Nilai Yang Anda Peroleh Adalah : E")
+# ======= Alifia 
 # <<<<<<< main  Firna
 #Ini Kontribusi Firna
 class firna:
@@ -254,3 +279,4 @@ def gita_bagi(a,b):
 
 
 # >>>>>>> main
+# >>>>>>> main Alifia 
