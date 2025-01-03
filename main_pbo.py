@@ -62,3 +62,14 @@ if __name__ == "__main__":
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
 
+#Ini Kontribusi Dari Srinagita Irwan
+import modul_satu_pbo as gita_1
+
+gita0=gita_1.gita_c("Srinagita", "Info 4","informatika","23091","Sasa","Membaca","19")
+gita0.gita1()
+
+gita_1.gita_tambah(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+gita_1.gita_kurang(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+gita_1.gita_kali(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+
