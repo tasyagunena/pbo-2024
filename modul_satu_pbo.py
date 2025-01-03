@@ -127,3 +127,28 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+#Ini Kontribusi Dari Srinagita Irwan
+class gita_c:
+    def __init__(self,nama,kelas,jurusan,npm,alamat,hobi,umur):
+        self.nama=nama
+        self.kelas=kelas
+        self.jurusan=jurusan
+        self.npm=npm
+        self.alamat=alamat
+        self.hobi=hobi
+        self.umur=umur
+
+    def gita1(self):
+        print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm saya {self.npm} alamat saya {self.alamat} dan hobi saya {self.hobi} umur saya {self.umur}")
+
+def gita_tambah(a,b):
+    print(a+b)
+
+def gita_kurang(a,b):
+    print(a-b)
+
+def gita_kali(a,b):
+    print(a*b)
+
+def gita_bagi(a,b):
+    print(a/b)
