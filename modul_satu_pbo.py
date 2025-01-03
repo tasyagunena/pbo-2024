@@ -46,6 +46,25 @@ class Mahasiswa:
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
 
 
+#ini kontribusi MOH. JASMIN RUMALEAN
+class jasmin:
+    def __init__ (self, nama, npm, jurusan, tahun_masuk):
+        self.nama = nama
+        self.npm = npm
+        self.jurusan = jurusan
+        self.tahun_masuk = tahun_masuk
+    def tampilkan_info(self):
+        print(f"NAMA: {self.nama}")
+        print(f"NPM: {self.npm}")
+        print(f"JURUSAN: {self.jurusan}")
+        print(f"TAHUN MASUK: {self.tahun_masuk}")
+    
+def usia_kuliah(usia):
+    print(f"Mahasiswa ini sudah kuliah selama {usia} tahun.")
+        
+def halo():
+    print(" Selamat datang di Program Mahasiswa Informatika ")
+
 #Ini Kontribusi Dari Muh. Fadel Nur
 class fadel:
     def __init__ (self, nama, npm, kelas, alamat, asal):
@@ -152,3 +171,4 @@ def gita_kali(a,b):
 
 def gita_bagi(a,b):
     print(a/b)
+

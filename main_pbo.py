@@ -21,6 +21,22 @@ mahasiswa1.tambah_nilai("Algoritma", 78)
 
 mahasiswa1.tampilkan_info()
 
+
+
+# ini adalah kontribusi MOH. JASMIN RUMALEAN
+from modul_satu_pbo import jasmin, usia_kuliah, halo
+
+# Menampilkan pesan sambutan
+halo() 
+
+# Membuat objek mahasiswa
+mahasiswa_2 = jasmin("Moh Jasmin Rumalean", "121055520123082", " Teknik Informatika", 2023)
+mahasiswa_2.tampilkan_info()
+
+# Menampilkan informasi mahasiswa pertama
+print("\nInformasi jasmin:")
+usia_kuliah("1")
+
 ## Ini Program Kontribusi Dari Muh. Fadel Nur
 import modul_satu_pbo as fadel
 
@@ -72,4 +88,5 @@ gita_1.gita_tambah(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 
 gita_1.gita_kurang(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_kali(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+
 
