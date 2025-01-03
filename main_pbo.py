@@ -22,6 +22,26 @@ mahasiswa1.tambah_nilai("Algoritma", 78)
 mahasiswa1.tampilkan_info()
 
 
+#nurul
+import modul_satu_pbo as nurul0
+
+nurul1= nurul0.nurul("nurul","20","membaca","patani","infomatika")
+nurul1.proses()
+
+print("Ini Adalah Tambah")
+print(nurul0.tambah(nurul0.input3(),nurul0.input3()))
+print("Ini Adalah Kali")
+print(nurul0.kali(nurul0.input3(),nurul0.input3()))
+print("Ini Adalah Kurang")
+print(nurul0.kurang(nurul0.input3(),nurul0.input3()))
+print("Ini Adalah Bagi")
+print(nurul0.bagi(nurul0.input3(),nurul0.input3()))
+print("Ini Adalah Pangkat")
+print(nurul0.pangkat(nurul0.input3(),nurul0.input3()))
+print("Ini Adalah Akar")
+print(nurul0.akar(nurul0.input3()))
+
+
 import modul_satu_pbo as diki
 
 diki1=diki.informasi("Diki", "23093","Info 4","Informatika","Mancing","25","Sasa")
@@ -96,4 +116,5 @@ gita_1.gita_tambah(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 
 gita_1.gita_kurang(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_kali(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
+
 
