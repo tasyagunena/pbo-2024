@@ -62,3 +62,15 @@ if __name__ == "__main__":
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
 
+#Ini Kontribusi Khumayra A Habsy
+import modul_satu_pbo as khumayra
+
+khumayra_1=khumayra.pinky("Khumayra","Informatika","23103","Info 4","Sulamadaha","19")
+khumayra_1.mimo()
+
+panjang = float(input("Masukkan panjang: "))
+lebar = float(input("Masukkan lebar: "))
+
+luas = khumayra.hitung_luas(panjang, lebar)
+
+print(f"Luasnya adalah: {luas}")
