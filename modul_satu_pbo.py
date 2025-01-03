@@ -45,6 +45,130 @@ class Mahasiswa:
             print(f"  {item['mata_kuliah']}: {item['nilai']}")
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
 
+# <<<<<<< main Alifia 
+#Ini Kontribusi Alifia Risman
+class alifia:
+    def __init__(self,nama,npm,jurusan,kelas,hobi):
+        self.n=nama
+        self.npm=npm
+        self.j=jurusan
+        self.k=kelas
+        self.h=hobi
+
+    def alifia1(self):
+        print(f"Nama Saya {self.n} Npm Saya {self.npm} Jurusan Saya {self.j} Kelas {self.k} Hobi Saya {self.h}")
+
+def alifia_fungsi(nilai):
+    if nilai >= 80:
+        print("Nilai Yang Anda Peroleh Adalah : A")
+    elif nilai >=70:
+        print("Nilai Yang Anda Peroleh Adalah : B")
+    elif nilai >=60:
+        print("Nilai Yang Anda Peroleh Adalah : C")
+    elif nilai >=50:
+        print("Nilai Yang Anda Peroleh Adalah : D")
+    else:
+        print("Nilai Yang Anda Peroleh Adalah : E")
+# ======= Alifia 
+# <<<<<<< main  Firna
+#Ini Kontribusi Firna
+class firna:
+# =======  Firna
+
+
+#ini kontribusi nurul
+class nurul:
+# >>>>>>> main 
+    def __init__(self,nama,umur,hobi,alamat,jurusan):
+        self.nama=nama
+        self.umur=umur
+        self.hobi=hobi
+        self.alamat=alamat
+        self.jurusan=jurusan
+
+# <<<<<<< main
+
+# =======
+# >>>>>>> main
+    def proses (self):
+        print(f"nama saya {self.nama} umur saya {self.umur} hobi saya {self.hobi} almat saya {self.alamat} jurusan saya {self.jurusan}")
+
+def tambah(a, b):
+    return a + b
+
+def kurang(a, b):
+    return a - b
+
+def kali(a, b):
+    return a * b
+
+def bagi(a, b):
+    if b == 0:
+        return "Error: Pembagian dengan nol tidak diperbolehkan."
+    return a / b
+
+def pangkat(a, b):
+    return a ** b
+
+def akar(a):
+    if a < 0:
+        return "Error: Tidak dapat menghitung akar kuadrat dari angka negatif."
+    return a ** 0.5
+
+def input3():
+    return int(input("masukan nilai : "))
+# <<<<<<< main
+# =======
+
+#modul_satu_pbo_Diki.py
+
+class informasi:
+    def __init__ (self, nama, npm, kelas, jurusan, hobi, umur, alamat):
+        self.n=nama
+        self.npm=npm
+        self.k=kelas
+        self.j=jurusan
+        self.h=hobi
+        self.u=umur
+        self.a=alamat
+
+    def panggil (self):
+        print(f"Nama Saya {self.n}, Npm Saya {self.npm}, Kelas {self.k}, Jurusan {self.j}, Hobi Saya {self.h}, Umur Saya {self.u}, Alamat saya di {self.a}")
+
+def nilai1():
+    return nilai(int(input("Masukan Nilai Anda : ")))
+
+def nilai(nilai):
+    if nilai >=80:
+        print("A")
+    elif nilai >=70:
+        print("B")
+    elif nilai >=60:
+        print("C")
+    elif nilai >=50:
+        print("D")
+    else:
+        print("E")
+    return nilai1()
+
+#ini kontribusi MOH. JASMIN RUMALEAN
+class jasmin:
+    def __init__ (self, nama, npm, jurusan, tahun_masuk):
+        self.nama = nama
+        self.npm = npm
+        self.jurusan = jurusan
+        self.tahun_masuk = tahun_masuk
+    def tampilkan_info(self):
+        print(f"NAMA: {self.nama}")
+        print(f"NPM: {self.npm}")
+        print(f"JURUSAN: {self.jurusan}")
+        print(f"TAHUN MASUK: {self.tahun_masuk}")
+    
+def usia_kuliah(usia):
+    print(f"Mahasiswa ini sudah kuliah selama {usia} tahun.")
+        
+def halo():
+    print(" Selamat datang di Program Mahasiswa Informatika ")
 
 #Ini Kontribusi Dari Muh. Fadel Nur
 class fadel:
@@ -127,3 +251,93 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+# <<<<<<< main khumayra07
+#Ini Kontribusi Khumayra A Habsy
+class pinky:
+    def __init__(self,nama,jurusan,npm,kelas,alamat,umur):
+        self.nama=nama 
+        self.jurusan=jurusan 
+        self.npm=npm 
+        self.kelas=kelas 
+        self.alamat=alamat 
+        self.umur=umur
+    def mimo(self):
+        print(f"nama saya {self.nama} Jurusan { self.jurusan} Npm saya {self.npm} Kelas {self.kelas} Alamat Saya {self.alamat} Umur Saya {self.umur} Tahun")
+
+def hitung_luas(panjang, lebar):
+ return panjang * lebar
+
+# ======= khumayra07
+# <<<<<<< main  kardichen27
+#Ini Kontribusi La Kardi
+class kardi0:
+# ======= kardichen27 khumayra07
+# <<<<<<< main Sarif04
+
+
+
+# ini kontribusi dari sarif soleman
+class sarif:
+    def __init__(self, panjang, lebar):
+        self.panjang = panjang
+        self.lebar = lebar
+
+    def hitung_luas(self):
+        return self.panjang * self.lebar
+
+    def hitung_keliling(self):
+        return 2 * (self.panjang + self.lebar)
+
+
+def sarif1(nama,npm,kelas,ipk):
+    print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
+# ======= Sarif04
+#Ini Kontribusi Dari Srinagita Irwan
+class gita_c: 
+# >>>>>>> main kardichen27
+    def __init__(self,nama,kelas,jurusan,npm,alamat,hobi,umur):
+        self.nama=nama
+        self.kelas=kelas
+        self.jurusan=jurusan
+        self.npm=npm
+        self.alamat=alamat
+        self.hobi=hobi
+        self.umur=umur
+
+# <<<<<<< main kardichen27
+    def kardi1(self):
+        print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm {self.npm} dan alamat saya dikelurahan {self.alamat} dan hobi saya yaitu {self.hobi} sedangkan umur saya {self.umur}")
+
+def kardi_tambah(a,b):
+    print(a+b)
+
+def kardi_kurang(a,b):
+    print(a-b)
+
+def kardi_kali(a,b):
+    print(a*b)
+
+def kardi_bagi(a,b):
+    print(a/b)
+# ======= kardichen27
+    def gita1(self):
+        print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm saya {self.npm} alamat saya {self.alamat} dan hobi saya {self.hobi} umur saya {self.umur}")
+
+def gita_tambah(a,b):
+    print(a+b)
+
+def gita_kurang(a,b):
+    print(a-b)
+
+def gita_kali(a,b):
+    print(a*b)
+
+def gita_bagi(a,b):
+    print(a/b)
+
+
+# >>>>>>> main
+# >>>>>>> main Alifia 
+# >>>>>>> main Sarif04
+# >>>>>>> main kardichen27
+# >>>>>>> main khumayra07
