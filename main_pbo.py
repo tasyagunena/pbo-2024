@@ -57,8 +57,22 @@ if __name__ == "__main__":
     anggota1.pinjam_buku("Struktur Data")
     
     anggota2.pinjam_buku("Basis Data")
-    
+
     # Menampilkan daftar buku yang dipinjam
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
+
+# ini kontribusi dari sarif soleman
+import modul_satu_pbo as sarif_soleman
+
+sarif_soleman.sarif = sarif_soleman.sarif(10, 5)
+
+luas = sarif_soleman.sarif.hitung_luas()
+keliling = sarif_soleman.sarif.hitung_keliling()
+
+print(f"Luas Persegi Panjang: {luas}")
+print(f"Keliling Persegi Panjang: {keliling}")
+
+sarif_soleman.sarif1("sarif","23085","info4","3,8")
+
 
