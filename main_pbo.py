@@ -62,3 +62,13 @@ if __name__ == "__main__":
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
 
+#Ini Kontribusi La Kardi
+import modul_satu_pbo as kardi7
+
+kardi12=kardi7.kardi0("lakardi", "Info 4","informatika","23092","Fitu","Mancing","22")
+kardi12.kardi1()
+
+kardi7.kardi_tambah(9,7)
+kardi7.kardi_kurang(9,3)
+kardi7.kardi_kali(9,5)
+kardi7.kardi_bagi(9,6)
