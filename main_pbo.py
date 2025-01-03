@@ -20,3 +20,11 @@ mahasiswa1.tambah_nilai("Fisika", 90)
 mahasiswa1.tambah_nilai("Algoritma", 78)
 
 mahasiswa1.tampilkan_info()
+
+## Ini Program Kontribusi Dari Muh. Fadel Nur
+import modul_satu_pbo as fadel
+
+fdl= fadel.fadel("Muh. Fadel Nur","23083","Info 4","Sasa","Buton")
+fdl.output()
+
+fadel.fadel_0()
