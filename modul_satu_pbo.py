@@ -94,3 +94,36 @@ def fadel_3(masukan):
 
     else:
         print("Ini Adalah Akhir Program Terima Kasih Sudah Mencoba Program FADEL :) ")
+
+# ini Kontribusi dari Refalina
+# modul_satu_pbo.py
+
+class Course:
+    def __init__(self, kode, nama_mata_kuliah):
+        self.kode = kode
+        self.nama_mata_kuliah = nama_mata_kuliah
+        self.mahasiswa_terdaftar = []
+
+    def tambah_mahasiswa(self, mahasiswa):
+        self.mahasiswa_terdaftar.append(mahasiswa)
+
+    def tampilkan_mahasiswa(self):
+        print(f"Mata Kuliah: {self.nama_mata_kuliah} ({self.kode})")
+        print("Mahasiswa yang Terdaftar:")
+        for mahasiswa in self.mahasiswa_terdaftar:
+            print(f"- {mahasiswa.name} ({mahasiswa.npm})")
+            
+# Pengujian Kelas Course
+if __name__ == "__main__":
+    # Membuat objek Mahasiswa
+    mahasiswa1 = Mahasiswa("Budi", "123456", "Informatika")
+    mahasiswa2 = Mahasiswa("Siti", "654321", "Matematika")
+    
+    # Membuat objek Course dan menambahkan mahasiswa
+    kursus = Course("IF101", "Pemrograman Berorientasi Objek")
+    kursus.tambah_mahasiswa(mahasiswa1)
+    kursus.tambah_mahasiswa(mahasiswa2)
+    
+    # Menampilkan informasi kursus
+    kursus.tampilkan_mahasiswa()
+
