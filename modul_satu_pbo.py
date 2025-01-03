@@ -127,3 +127,21 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+
+
+
+# ini kontribusi dari sarif soleman
+class sarif:
+    def __init__(self, panjang, lebar):
+        self.panjang = panjang
+        self.lebar = lebar
+
+    def hitung_luas(self):
+        return self.panjang * self.lebar
+
+    def hitung_keliling(self):
+        return 2 * (self.panjang + self.lebar)
+
+
+def sarif1(nama,npm,kelas,ipk):
+    print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
