@@ -127,3 +127,28 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+#Ini Kontribusi La Kardi
+class kardi0:
+    def __init__(self,nama,kelas,jurusan,npm,alamat,hobi,umur):
+        self.nama=nama
+        self.kelas=kelas
+        self.jurusan=jurusan
+        self.npm=npm
+        self.alamat=alamat
+        self.hobi=hobi
+        self.umur=umur
+
+    def kardi1(self):
+        print(f"Perkenalkan nama saya {self.nama} saya dari kelas {self.kelas} jurusan {self.jurusan} npm {self.npm} dan alamat saya dikelurahan {self.alamat} dan hobi saya yaitu {self.hobi} sedangkan umur saya {self.umur}")
+
+def kardi_tambah(a,b):
+    print(a+b)
+
+def kardi_kurang(a,b):
+    print(a-b)
+
+def kardi_kali(a,b):
+    print(a*b)
+
+def kardi_bagi(a,b):
+    print(a/b)
