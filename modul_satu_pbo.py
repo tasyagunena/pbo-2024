@@ -341,3 +341,40 @@ def gita_bagi(a,b):
 # >>>>>>> main Sarif04
 # >>>>>>> main kardichen27
 # >>>>>>> main khumayra07
+
+#ini kontribusi dari nursin
+class ocin_sahrin:
+    def __init__(self,nama,npm,jurusan,alamat):
+        self.nama=nama
+        self.npm=npm
+        self.jurusan=jurusan
+        self.alamat=alamat
+
+    def rimex(self):
+        print(f"nama saya {self.nama} npm saya {self.npm} saya dari jurusan {self.jurusan} alamat saya {self.alamat}")
+
+def ocin_kalkulator():
+    return int(input("masukkan nilai : "))
+
+def ocin_tambah(a,b):
+    print(a+b)
+
+def ocin_kurang(a,b):
+    print(a-b)
+
+def ocin_kali(a,b):
+    print(a*b)
+
+def ocin_bagi(a,b):
+    print(a/b)
+
+def lani(data):
+    if data =="+":
+        return ocin_tambah(ocin_kalkulator(),ocin_kalkulator())
+    if data =="-":
+        return ocin_kurang(ocin_kalkulator(),ocin_kalkulator())
+    if data =="*":
+        return ocin_kali(ocin_kalkulator(),ocin_kalkulator())
+    if data =="/":
+        return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
+
