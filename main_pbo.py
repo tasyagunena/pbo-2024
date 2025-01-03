@@ -136,6 +136,20 @@ if __name__ == "__main__":
     anggota1.tampilkan_buku_pinjam()
     anggota2.tampilkan_buku_pinjam()
 
+# <<<<<<< main khumayra07
+#Ini Kontribusi Khumayra A Habsy
+import modul_satu_pbo as khumayra
+
+khumayra_1=khumayra.pinky("Khumayra","Informatika","23103","Info 4","Sulamadaha","19")
+khumayra_1.mimo()
+
+panjang = float(input("Masukkan panjang: "))
+lebar = float(input("Masukkan lebar: "))
+
+luas = khumayra.hitung_luas(panjang, lebar)
+
+print(f"Luasnya adalah: {luas}")
+# ======= khumayra07
 # <<<<<<< main kardichen27
 #Ini Kontribusi La Kardi
 import modul_satu_pbo as kardi7
@@ -180,3 +194,4 @@ gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : 
 # >>>>>>> main Alifia 
 # >>>>>>> main Sarif04
 # >>>>>>> main kardichen27
+# >>>>>>> main khumayra07

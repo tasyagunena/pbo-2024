@@ -251,10 +251,27 @@ if __name__ == "__main__":
     # Menampilkan informasi kursus
     kursus.tampilkan_mahasiswa()
 
+# <<<<<<< main khumayra07
+#Ini Kontribusi Khumayra A Habsy
+class pinky:
+    def __init__(self,nama,jurusan,npm,kelas,alamat,umur):
+        self.nama=nama 
+        self.jurusan=jurusan 
+        self.npm=npm 
+        self.kelas=kelas 
+        self.alamat=alamat 
+        self.umur=umur
+    def mimo(self):
+        print(f"nama saya {self.nama} Jurusan { self.jurusan} Npm saya {self.npm} Kelas {self.kelas} Alamat Saya {self.alamat} Umur Saya {self.umur} Tahun")
+
+def hitung_luas(panjang, lebar):
+ return panjang * lebar
+
+# ======= khumayra07
 # <<<<<<< main  kardichen27
 #Ini Kontribusi La Kardi
 class kardi0:
-======= kardichen27
+# ======= kardichen27 khumayra07
 # <<<<<<< main Sarif04
 
 
@@ -323,3 +340,4 @@ def gita_bagi(a,b):
 # >>>>>>> main Alifia 
 # >>>>>>> main Sarif04
 # >>>>>>> main kardichen27
+# >>>>>>> main khumayra07
