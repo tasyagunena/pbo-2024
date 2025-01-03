@@ -45,10 +45,15 @@ class Mahasiswa:
             print(f"  {item['mata_kuliah']}: {item['nilai']}")
         print(f"Rata-rata Nilai: {self.rata_rata_nilai():.2f}")
 
+# <<<<<<< main  Firna
+#Ini Kontribusi Firna
+class firna:
+# =======  Firna
 
 
 #ini kontribusi nurul
 class nurul:
+# >>>>>>> main 
     def __init__(self,nama,umur,hobi,alamat,jurusan):
         self.nama=nama
         self.umur=umur
@@ -56,6 +61,10 @@ class nurul:
         self.alamat=alamat
         self.jurusan=jurusan
 
+# <<<<<<< main
+
+# =======
+# >>>>>>> main
     def proses (self):
         print(f"nama saya {self.nama} umur saya {self.umur} hobi saya {self.hobi} almat saya {self.alamat} jurusan saya {self.jurusan}")
 
@@ -83,6 +92,8 @@ def akar(a):
 
 def input3():
     return int(input("masukan nilai : "))
+# <<<<<<< main
+# =======
 
 #modul_satu_pbo_Diki.py
 
@@ -242,3 +253,4 @@ def gita_bagi(a,b):
     print(a/b)
 
 
+# >>>>>>> main
