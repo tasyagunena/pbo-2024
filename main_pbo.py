@@ -22,6 +22,14 @@ mahasiswa1.tambah_nilai("Algoritma", 78)
 mahasiswa1.tampilkan_info()
 
 
+import modul_satu_pbo as diki
+
+diki1=diki.informasi("Diki", "23093","Info 4","Informatika","Mancing","25","Sasa")
+diki1.panggil()
+
+diki.nilai1()
+
+
 
 # ini adalah kontribusi MOH. JASMIN RUMALEAN
 from modul_satu_pbo import jasmin, usia_kuliah, halo
@@ -88,5 +96,4 @@ gita_1.gita_tambah(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 
 gita_1.gita_kurang(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_kali(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
 gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : ")))
-
 
