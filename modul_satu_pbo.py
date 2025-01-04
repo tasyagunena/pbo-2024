@@ -396,3 +396,98 @@ def lani(data):
         return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
 
 # >>>>>>> main Lastryyy
+#ini kostribusi dari noviyanti
+
+class Motor:
+    def __init__(self, merek, model, tahun, warna, kapasitas_mesin, kapasitas_bensin):
+        """Inisialisasi objek motor dengan atribut yang diberikan"""
+        self.merek = merek
+        self.model = model
+        self.tahun = tahun
+        self.warna = warna
+        self.kapasitas_mesin = kapasitas_mesin
+        self._kapasitas_bensin = kapasitas_bensin
+        self._bensin_terisi = 0
+        self.kecepatan = 0
+        self.status = False
+
+    def hidupkan_motor(self):
+        """Menghidupkan motor jika ada bensin"""
+        if not self.status:
+            if self._bensin_terisi > 0:
+                self.status = True
+                print(f"Motor {self.merek} {self.model} berhasil dinyalakan.")
+            else:
+                print("Tidak ada bensin! Isi bensin terlebih dahulu.")
+        else:
+            print(f"Motor {self.merek} {self.model} sudah menyala.")
+
+    def matikan_motor(self):
+        """Mematikan motor"""
+        if self.status:
+            self.status = False
+            print(f"Motor {self.merek} {self.model} dimatikan.")
+        else:
+            print(f"Motor {self.merek} {self.model} sudah mati.")
+
+    def tambah_bensin(self, jumlah_bensin):
+        """Menambah bensin ke motor"""
+        if jumlah_bensin + self._bensin_terisi > self._kapasitas_bensin:
+            print(f"Tangki bensin penuh! Maksimal kapasitas {self._kapasitas_bensin} liter.")
+        else:
+            self._bensin_terisi += jumlah_bensin
+            print(f"Bensin berhasil ditambahkan. Total bensin: {self._bensin_terisi} liter.")
+
+    def kurangi_bensin(self, konsumsi):
+        """Mengurangi bensin saat motor berjalan"""
+        if self.status:
+            if self._bensin_terisi >= konsumsi:
+                self._bensin_terisi -= konsumsi
+                print(f"Bensin terpakai {konsumsi} liter. Sisa bensin: {self._bensin_terisi} liter.")
+            else:
+                print(f"Tidak cukup bensin untuk perjalanan!")
+        else:
+            print("Motor dalam keadaan mati, tidak bisa mengurangi bensin.")
+
+    def tambah_kecepatan(self, kecepatan_tambah):
+        """Menambah kecepatan motor"""
+        if self.status:
+            if self._bensin_terisi > 0:
+                self.kecepatan += kecepatan_tambah
+                self.kurangi_bensin(kecepatan_tambah * 0.05)  # Simulasi konsumsi bensin
+                print(f"Kecepatan motor {self.merek} {self.model} sekarang {self.kecepatan} km/jam.")
+            else:
+                print("Tidak ada bensin untuk meningkatkan kecepatan.")
+        else:
+            print("Motor mati. Nyalakan motor terlebih dahulu untuk menambah kecepatan.")
+
+    def kurangi_kecepatan(self, kecepatan_kurang):
+        """Mengurangi kecepatan motor"""
+        if self.status:
+            if self.kecepatan - kecepatan_kurang >= 0:
+                self.kecepatan -= kecepatan_kurang
+                print(f"Kecepatan motor {self.merek} {self.model} sekarang {self.kecepatan} km/jam.")
+            else:
+                print(f"Kecepatan motor tidak bisa kurang dari 0 km/jam.")
+        else:
+            print("Motor mati. Nyalakan motor terlebih dahulu untuk mengurangi kecepatan.")
+
+    def lihat_status_motor(self):
+        """Menampilkan status lengkap motor"""
+        status_motor = "Hidup" if self.status else "Mati"
+        persen_bensin = (self._bensin_terisi / self._kapasitas_bensin) * 100 if self._kapasitas_bensin > 0 else 0
+        print(f"""
+        ========================================
+        Informasi Motor:
+        ========================================
+        Merek         : {self.merek}
+        Model         : {self.model}
+        Tahun         : {self.tahun}
+        Warna         : {self.warna}
+        Kapasitas Mesin: {self.kapasitas_mesin}cc
+        Kecepatan     : {self.kecepatan} km/jam
+        Status        : {status_motor}
+        Bensin        : {self._bensin_terisi} liter ({persen_bensin:.2f}% dari kapasitas)
+        ========================================
+        """)
+
