@@ -215,3 +215,11 @@ gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : 
 # >>>>>>> main kardichen27
 # >>>>>>> main khumayra07
 # >>>>>>> main sanana14
+
+#ini kontribusi dari nursin
+import modul_satu_pbo as ocin
+
+alsa=ocin.ocin_sahrin("nursin","23084","informatika","sasa")
+alsa.rimex()
+
+ocin.lani(input("pilihlah proses kalkulator + - * / : "))
