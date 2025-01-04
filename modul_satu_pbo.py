@@ -399,7 +399,6 @@ def lani(data):
 
 #ini konstribusi dari marisa husen
 
-
 class BankAccount:
     def __init__(self, pemilik, saldo=0):
         """Inisialisasi objek akun dengan pemilik dan saldo (default saldo 0)"""
