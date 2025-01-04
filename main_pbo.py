@@ -215,3 +215,21 @@ gita_1.gita_bagi(int(input("Masukan Nilai 1 : ")),int(input("Masukkan Nilai 2 : 
 # >>>>>>> main kardichen27
 # >>>>>>> main khumayra07
 # >>>>>>> main sanana14
+
+#ini kontribusi dari sulastri
+# main.py
+
+from bunga import Bunga
+
+def main():
+    bunga_mawar = Bunga("Mawar", "Merah", "Mawar")
+    bunga_mawar.deskripsi()
+    
+    bunga_mawar.ubah_warna("Putih")
+    bunga_mawar.deskripsi()
+
+    bunga_ormatum = Bunga("Orchid", "Ungu", "Orkid")
+    bunga_ormatum.deskripsi()
+
+if __name__ == "__main__":
+    main()
