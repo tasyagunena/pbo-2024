@@ -342,6 +342,23 @@ def gita_bagi(a,b):
 # >>>>>>> main kardichen27
 # >>>>>>> main khumayra07
 
+# <<<<<<< main 
+#ini kontribusi dari sulastri
+# bunga.py
+
+class Bunga:
+    def __init__(self, nama, warna, jenis):
+        self.nama = nama
+        self.warna = warna
+        self.jenis = jenis
+
+    def deskripsi(self):
+        print(f"Bunga: {self.nama}, Warna: {self.warna}, Jenis: {self.jenis}")
+
+    def ubah_warna(self, warna_baru):
+        self.warna = warna_baru
+        print(f"Warna {self.nama} telah diubah menjadi: {self.warna}")
+# ======= Lastryyy
 #ini kontribusi dari nursin
 class ocin_sahrin:
     def __init__(self,nama,npm,jurusan,alamat):
@@ -378,3 +395,4 @@ def lani(data):
     if data =="/":
         return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
 
+# >>>>>>> main Lastryyy
