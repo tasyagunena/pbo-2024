@@ -243,3 +243,50 @@ alsa.rimex()
 
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
+# ini main noviyanti
+
+from modul_opi_pbo import Buah
+
+class TokoBuah:
+    def __init__(self):
+        """Inisialisasi objek TokoBuah dengan daftar buah kosong"""
+        self.daftar_buah = []
+
+    def tambah_buah(self, nama, warna, harga_per_kg):
+        """Menambahkan buah baru ke dalam daftar buah"""
+        buah = Buah(nama, warna, harga_per_kg)
+        self.daftar_buah.append(buah)
+        print(f"Buah {nama} berhasil ditambahkan.")
+
+    def lihat_daftar_buah(self):
+        """Menampilkan daftar semua buah yang ada di toko"""
+        if self.daftar_buah:
+            print("Daftar Buah di Toko:")
+            for buah in self.daftar_buah:
+                print(buah)
+        else:
+            print("Tidak ada buah di toko.")
+
+    def hitung_total_harga(self, jumlah_kg):
+        """Menghitung total harga dari semua buah yang terdaftar berdasarkan jumlah yang dibeli"""
+        total = sum(buah.harga_per_kg * jumlah_kg for buah in self.daftar_buah)
+        print(f"Total Harga Semua Buah (untuk {jumlah_kg} kg): Rp {total}")
+
+
+def main():
+
+    toko = TokoBuah()
+    toko.tambah_buah("Apel", "Merah", 25000)
+    toko.tambah_buah("Pisang", "Kuning", 15000)
+    toko.tambah_buah("Jeruk", "Oranye", 20000)
+    toko.lihat_daftar_buah()
+    toko.hitung_total_harga(2)
+    toko.daftar_buah[0].diskon_buah(10)
+    print("\nSetelah Diskon:")
+    toko.lihat_daftar_buah()
+    toko.hitung_total_harga(2)
+
+if __name__ == "__main__":
+    main()
+
+
