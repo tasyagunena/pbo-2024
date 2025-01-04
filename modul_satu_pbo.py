@@ -342,6 +342,7 @@ def gita_bagi(a,b):
 # >>>>>>> main kardichen27
 # >>>>>>> main khumayra07
 
+# <<<<<<< main 
 #ini kontribusi dari sulastri
 # bunga.py
 
@@ -357,3 +358,41 @@ class Bunga:
     def ubah_warna(self, warna_baru):
         self.warna = warna_baru
         print(f"Warna {self.nama} telah diubah menjadi: {self.warna}")
+# ======= Lastryyy
+#ini kontribusi dari nursin
+class ocin_sahrin:
+    def __init__(self,nama,npm,jurusan,alamat):
+        self.nama=nama
+        self.npm=npm
+        self.jurusan=jurusan
+        self.alamat=alamat
+
+    def rimex(self):
+        print(f"nama saya {self.nama} npm saya {self.npm} saya dari jurusan {self.jurusan} alamat saya {self.alamat}")
+
+def ocin_kalkulator():
+    return int(input("masukkan nilai : "))
+
+def ocin_tambah(a,b):
+    print(a+b)
+
+def ocin_kurang(a,b):
+    print(a-b)
+
+def ocin_kali(a,b):
+    print(a*b)
+
+def ocin_bagi(a,b):
+    print(a/b)
+
+def lani(data):
+    if data =="+":
+        return ocin_tambah(ocin_kalkulator(),ocin_kalkulator())
+    if data =="-":
+        return ocin_kurang(ocin_kalkulator(),ocin_kalkulator())
+    if data =="*":
+        return ocin_kali(ocin_kalkulator(),ocin_kalkulator())
+    if data =="/":
+        return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
+
+# >>>>>>> main Lastryyy
