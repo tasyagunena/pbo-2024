@@ -396,6 +396,26 @@ def lani(data):
         return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
 
 # >>>>>>> main Lastryyy
+# <<<<<<< main noviyanti197
+#ini kostribusi dari noviyanti
+
+# buah.py
+
+class Buah:
+    def __init__(self, nama, warna, harga_per_kg):
+        """Inisialisasi objek Buah dengan nama, warna, dan harga per kg"""
+        self.nama = nama
+        self.warna = warna
+        self.harga_per_kg = harga_per_kg
+
+    def __str__(self):
+        """Mengembalikan representasi string untuk objek Buah"""
+        return f"{self.nama} (Warna: {self.warna}), Harga: Rp {self.harga_per_kg}/kg"
+
+    def diskon_buah(self, persen):
+        """Memberikan diskon pada harga per kg buah"""
+        self.harga_per_kg -= self.harga_per_kg * (persen / 100)
+# ======= noviyanti197
 
 # <<<<<<< main marisa2503
 #ini konstribusi dari marisa husen
@@ -460,3 +480,4 @@ class DaftarWisata:
 
 # >>>>>>> main marisa2503
 
+# >>>>>>> main noviyanti197

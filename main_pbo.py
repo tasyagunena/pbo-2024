@@ -243,15 +243,62 @@ alsa.rimex()
 
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
+# <<<<<<< main noviyanti197
+# ini main noviyanti
+
+from modul_opi_pbo import Buah
+
+class TokoBuah:
+    def __init__(self):
+        """Inisialisasi objek TokoBuah dengan daftar buah kosong"""
+        self.daftar_buah = []
+
+    def tambah_buah(self, nama, warna, harga_per_kg):
+        """Menambahkan buah baru ke dalam daftar buah"""
+        buah = Buah(nama, warna, harga_per_kg)
+        self.daftar_buah.append(buah)
+        print(f"Buah {nama} berhasil ditambahkan.")
+
+    def lihat_daftar_buah(self):
+        """Menampilkan daftar semua buah yang ada di toko"""
+        if self.daftar_buah:
+            print("Daftar Buah di Toko:")
+            for buah in self.daftar_buah:
+                print(buah)
+        else:
+            print("Tidak ada buah di toko.")
+
+    def hitung_total_harga(self, jumlah_kg):
+        """Menghitung total harga dari semua buah yang terdaftar berdasarkan jumlah yang dibeli"""
+        total = sum(buah.harga_per_kg * jumlah_kg for buah in self.daftar_buah)
+        print(f"Total Harga Semua Buah (untuk {jumlah_kg} kg): Rp {total}")
+# ======= noviyanti197
 
 # <<<<<<< main marisa2503
 #uji fungsi dan class marisa husen
 
 from modul_satu_pbo import BankAccount
+# >>>>>>> main noviyanti197
 
 
 def main():
 
+# <<<<<<< main noviyanti197
+    toko = TokoBuah()
+    toko.tambah_buah("Apel", "Merah", 25000)
+    toko.tambah_buah("Pisang", "Kuning", 15000)
+    toko.tambah_buah("Jeruk", "Oranye", 20000)
+    toko.lihat_daftar_buah()
+    toko.hitung_total_harga(2)
+    toko.daftar_buah[0].diskon_buah(10)
+    print("\nSetelah Diskon:")
+    toko.lihat_daftar_buah()
+    toko.hitung_total_harga(2)
+
+if __name__ == "__main__":
+    main()
+
+# ======= noviyanti197
     akun1 = BankAccount("John Doe", 500000)
     akun1.cek_saldo()
     akun1.setor(200000)
@@ -284,4 +331,5 @@ nama_dicari = input("\nMasukkan nama tempat wisata yang ingin dicari: ")
 print(daftar_wisata.cari_wisata(nama_dicari))
 
 # >>>>>>> main marisa2503
+# >>>>>>> main noviyanti197
 
