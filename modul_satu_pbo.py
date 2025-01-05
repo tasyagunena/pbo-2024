@@ -481,3 +481,19 @@ class DaftarWisata:
 # >>>>>>> main marisa2503
 
 # >>>>>>> main noviyanti197
+
+#Ini Kontribusi Dari Syafril Ibrahim
+class syafril:
+    def __init__(self, panjang, lebar):
+        self.panjang = panjang
+        self.lebar = lebar
+
+    def hitung_luas(self):
+        return self.panjang * self.lebar
+
+    def hitung_keliling(self):
+        return 2 * (self.panjang + self.lebar)
+
+
+def syafril1(nama,npm,kelas,ipk):
+    print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
