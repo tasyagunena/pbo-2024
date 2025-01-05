@@ -333,3 +333,15 @@ print(daftar_wisata.cari_wisata(nama_dicari))
 # >>>>>>> main marisa2503
 # >>>>>>> main noviyanti197
 
+#Ini Kontribusi Dari Syafril Ibrahim
+import modul_satu_pbo as syafril0
+
+syafril0.syafril = syafril0.syafril(10, 5)
+
+luas = syafril0.syafril.hitung_luas()
+keliling = syafril0.syafril.hitung_keliling()
+
+print(f"Luas Persegi Panjang: {luas}")
+print(f"Keliling Persegi Panjang: {keliling}")
+
+syafril0.syafril1("Syafril","23090","info4","3,8")
