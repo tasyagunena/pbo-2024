@@ -396,6 +396,7 @@ def lani(data):
         return ocin_bagi(ocin_kalkulator(),ocin_kalkulator())
 
 # >>>>>>> main Lastryyy
+# <<<<<<< main noviyanti197
 #ini kostribusi dari noviyanti
 
 # buah.py
@@ -414,3 +415,69 @@ class Buah:
     def diskon_buah(self, persen):
         """Memberikan diskon pada harga per kg buah"""
         self.harga_per_kg -= self.harga_per_kg * (persen / 100)
+# ======= noviyanti197
+
+# <<<<<<< main marisa2503
+#ini konstribusi dari marisa husen
+
+class BankAccount:
+    def __init__(self, pemilik, saldo=0):
+        """Inisialisasi objek akun dengan pemilik dan saldo (default saldo 0)"""
+        self.pemilik = pemilik
+        self.saldo = saldo
+
+    def setor(self, jumlah):
+        """Menambahkan uang ke saldo"""
+        if jumlah > 0:
+            self.saldo += jumlah
+            print(f"Setoran: Rp{jumlah}. Saldo baru: Rp{self.saldo}.")
+        else:
+            print("Jumlah setoran harus positif.")
+
+    def tarik(self, jumlah):
+        """Menarik uang dari saldo, jika saldo mencukupi"""
+        if jumlah > 0 and jumlah <= self.saldo:
+            self.saldo -= jumlah
+            print(f"Penarikan: Rp{jumlah}. Saldo baru: Rp{self.saldo}.")
+        elif jumlah > self.saldo:
+            print("Saldo tidak mencukupi.")
+        else:
+            print("Jumlah penarikan harus positif.")
+
+    def cek_saldo(self):
+        """Menampilkan saldo terkini"""
+        print(f"Saldo akun {self.pemilik}: Rp{self.saldo}")
+# =======  marisa2503
+#ini kontribusi dari arianti
+class TempatWisata:
+    def __init__(self, nama, lokasi, deskripsi, harga_tiket):
+        self.nama = "Pantai Sulamadaha"
+        self.lokasi = "Ternate Utara"
+        self.deskripsi = "Pantai dengan air jernih dan pemandangan bawah laut."
+        self.harga_tiket = 10000
+
+    def tampilkan_info(self):
+        return f"Nama: {self.nama}\nLokasi: {self.lokasi}\nDeskripsi: {self.deskripsi}\nHarga Tiket: Rp{self.harga_tiket:,}\n"
+
+
+class DaftarWisata:
+    def __init__(self):
+        self.wisata_list = []
+
+    def tambah_wisata(self, wisata):
+        self.wisata_list.append(wisata)
+
+    def tampilkan_semua(self):
+        if not self.wisata_list:
+            return "Belum ada tempat wisata yang terdaftar."
+        return "\n".join([wisata.tampilkan_info() for wisata in self.wisata_list])
+
+    def cari_wisata(self, nama):
+        for wisata in self.wisata_list:
+            if wisata.nama.lower() == nama.lower():
+                return wisata.tampilkan_info()
+        return "Tempat wisata tidak ditemukan."
+
+# >>>>>>> main marisa2503
+
+# >>>>>>> main noviyanti197

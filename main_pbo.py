@@ -243,6 +243,7 @@ alsa.rimex()
 
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
+# <<<<<<< main noviyanti197
 # ini main noviyanti
 
 from modul_opi_pbo import Buah
@@ -271,10 +272,18 @@ class TokoBuah:
         """Menghitung total harga dari semua buah yang terdaftar berdasarkan jumlah yang dibeli"""
         total = sum(buah.harga_per_kg * jumlah_kg for buah in self.daftar_buah)
         print(f"Total Harga Semua Buah (untuk {jumlah_kg} kg): Rp {total}")
+# ======= noviyanti197
+
+# <<<<<<< main marisa2503
+#uji fungsi dan class marisa husen
+
+from modul_satu_pbo import BankAccount
+# >>>>>>> main noviyanti197
 
 
 def main():
 
+# <<<<<<< main noviyanti197
     toko = TokoBuah()
     toko.tambah_buah("Apel", "Merah", 25000)
     toko.tambah_buah("Pisang", "Kuning", 15000)
@@ -289,4 +298,38 @@ def main():
 if __name__ == "__main__":
     main()
 
+# ======= noviyanti197
+    akun1 = BankAccount("John Doe", 500000)
+    akun1.cek_saldo()
+    akun1.setor(200000)
+    akun1.tarik(100000)
+    akun1.cek_saldo()
+    akun1.tarik(700000)
+    akun1.setor(-50000)
+    akun1.cek_saldo()
+
+if __name__ == "__main__":
+    main()
+# ======= marisa2503
+#ini kontribusi dari ariyanti
+from tempat_wisata import TempatWisata, DaftarWisata
+
+# Inisialisasi daftar wisata
+daftar_wisata = DaftarWisata()
+
+# Menambahkan beberapa tempat wisata di Ternate
+daftar_wisata.tambah_wisata(TempatWisata("Pantai Sulamadaha", "Ternate Utara", "Pantai indah dengan air jernih dan pemandangan bawah laut.", 10000))
+daftar_wisata.tambah_wisata(TempatWisata("Benteng Tolukko", "Kota Ternate", "Benteng peninggalan Portugis dengan nilai sejarah tinggi.", 15000))
+daftar_wisata.tambah_wisata(TempatWisata("Danau Tolire", "Ternate Barat", "Danau yang terkenal dengan legenda dan keindahan alamnya.", 5000))
+
+# Menampilkan semua tempat wisata
+print("Daftar Tempat Wisata:")
+print(daftar_wisata.tampilkan_semua())
+
+# Mencari tempat wisata
+nama_dicari = input("\nMasukkan nama tempat wisata yang ingin dicari: ")
+print(daftar_wisata.cari_wisata(nama_dicari))
+
+# >>>>>>> main marisa2503
+# >>>>>>> main noviyanti197
 
