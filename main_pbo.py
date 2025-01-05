@@ -244,6 +244,26 @@ alsa.rimex()
 ocin.lani(input("pilihlah proses kalkulator + - * / : "))
 # >>>>>>> main Lastryyy
 
+# <<<<<<< main marisa2503
+#uji fungsi dan class marisa husen
+
+from modul_satu_pbo import BankAccount
+
+
+def main():
+
+    akun1 = BankAccount("John Doe", 500000)
+    akun1.cek_saldo()
+    akun1.setor(200000)
+    akun1.tarik(100000)
+    akun1.cek_saldo()
+    akun1.tarik(700000)
+    akun1.setor(-50000)
+    akun1.cek_saldo()
+
+if __name__ == "__main__":
+    main()
+# ======= marisa2503
 #ini kontribusi dari ariyanti
 from tempat_wisata import TempatWisata, DaftarWisata
 
@@ -263,4 +283,5 @@ print(daftar_wisata.tampilkan_semua())
 nama_dicari = input("\nMasukkan nama tempat wisata yang ingin dicari: ")
 print(daftar_wisata.cari_wisata(nama_dicari))
 
+# >>>>>>> main marisa2503
 
