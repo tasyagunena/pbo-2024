@@ -14,6 +14,9 @@ if npm == "000":
 elif npm == "066":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Jelia
     fasasdfa() 
+elif npm == "062":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Dila
+    apa() 
 elif npm == "053":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya sulastri
     bunga() 
