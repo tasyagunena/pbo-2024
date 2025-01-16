@@ -1,0 +1,3 @@
+#kode uas REFALINA DARWIN
+def tampilkan_pantai(nama_pantai): 
+  print(f"Pantai {nama_pantai} sangat indah!")
