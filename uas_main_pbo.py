@@ -17,6 +17,22 @@ elif npm == "066":
 elif npm == "072":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ariyanti
     sambarang()
+elif npm == "062":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Dila
+    apa() 
+elif npm == "053":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya sulastri
+    bunga() 
+elif npm == "083":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Muh. Fadel Nur
+    input0()
+elif npm == "093":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya DIKI
+    ulang()
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
+    
+  # dari refalina
+from modul_satu_pbo import Pantai
+Pantai().tampilkan("jikomalamo")
