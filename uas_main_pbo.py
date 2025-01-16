@@ -14,6 +14,9 @@ if npm == "000":
 elif npm == "066":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Jelia
     fasasdfa() 
+elif npm == "093":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya DIKI
+    ulang()
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
