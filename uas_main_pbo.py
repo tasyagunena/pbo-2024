@@ -17,3 +17,7 @@ elif npm == "066":
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
+    
+  # dari refalina
+from modul_satu_pbo import Pantai
+Pantai().tampilkan("jikomalamo")
