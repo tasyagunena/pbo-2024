@@ -18,6 +18,6 @@ else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
     
-  #fungsi dan class yang dari refaaaa
-from modul_satu_pbo import tampilkan_pantai
-tampilkan_pantai("jikomalamo")
+  # dari refalina
+from modul_satu_pbo import Pantai
+Pantai().tampilkan("jikomalamo")
