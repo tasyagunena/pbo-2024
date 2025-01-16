@@ -1,3 +1,1 @@
-#kode uas REFALINA DARWIN
-class Pantai:
-    tampilkan = lambda self, nama_pantai: print(f"Pantai {nama_pantai} sangat indah!")  
+
