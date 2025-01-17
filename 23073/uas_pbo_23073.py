@@ -1,4 +1,3 @@
-
 supermi_menu = {
     "Supermi Original": 3000,
     "Supermi Rasa Ayam Bakar": 3500,
