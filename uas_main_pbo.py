@@ -95,6 +95,9 @@ elif npm == "055":
 # >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
+elif npm == "087":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya samsulidan
+    samsulidan()
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
