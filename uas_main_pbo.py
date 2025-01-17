@@ -33,6 +33,11 @@ elif npm == "071":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      eflnz.pantai()
 # <<<<<<< main
+elif npm == "103":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya siti khumayra A. habsy
+    main()
+# =======
+# <<<<<<< main
 elif npm == "060":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Efan umagapi
      buku.buku(),buku.buku2(),buku.buku3()
@@ -55,6 +60,7 @@ elif npm == "055":
  elif npm == "064":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      batu.batu()
+# >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
