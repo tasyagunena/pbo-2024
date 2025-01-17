@@ -33,6 +33,34 @@ elif npm == "071":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      eflnz.pantai()
 # <<<<<<< main
+# <<<<<<< patch-2
+# =======
+elif npm == "073":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya jesika anastasya gunena
+      supermie_menu.supermi_menu()
+# =======
+# <<<<<<< main
+elif npm == "092":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Kardi
+    tampilkan_jadwal()
+# =======
+# <<<<<<< main
+elif npm == "089":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya susan
+    susan()
+# =======
+# <<<<<<< main
+elif npm == "085":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya sarif soleman
+    sarif()
+# =======
+# <<<<<<< main
+elif npm == "082":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Jasmin
+    jass()
+# =======
+# <<<<<<< main
+# >>>>>>> main
 elif npm == "088":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya imam fauzan
     imam()  
@@ -107,6 +135,14 @@ elif npm == "073":
 # >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# <<<<<<< main
+elif npm == "087":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya samsulidan
+    samsulidan()
+# =======
 # >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
