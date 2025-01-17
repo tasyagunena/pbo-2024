@@ -33,6 +33,46 @@ elif npm == "071":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      eflnz.pantai()
 # <<<<<<< main
+elif npm == "073":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya jesika anastasya gunena
+      supermie_menu.supermi_menu()
+# =======
+# <<<<<<< main
+elif npm == "092":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Kardi
+    tampilkan_jadwal()
+# =======
+# <<<<<<< main
+elif npm == "089":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya susan
+    susan()
+# =======
+# <<<<<<< main
+elif npm == "085":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya sarif soleman
+    sarif()
+# =======
+# <<<<<<< main
+elif npm == "082":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Jasmin
+    jass()
+# =======
+# <<<<<<< main
+elif npm == "088":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya imam fauzan
+    imam()  
+# =======
+# <<<<<<< main
+elif npm == "061":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya klara sibu
+     skincare.skincare()
+# =======
+# <<<<<<< main
+elif npm == "051":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya iqra rindani
+     Elektronik.elektronik()
+# =======
+# <<<<<<< main
 elif npm == "080":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Lestari
     taex()
@@ -95,9 +135,20 @@ elif npm == "055":
 # >>>>>>> main
 # >>>>>>> main
 # >>>>>>> main
+# <<<<<<< main
 elif npm == "087":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya samsulidan
     samsulidan()
+# =======
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
