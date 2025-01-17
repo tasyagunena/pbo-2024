@@ -32,6 +32,9 @@ elif npm == "093":
 elif npm == "071":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      eflnz.pantai()
+elif npm == "073":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya jesika anastasya gunena
+      supermie_menu.supermi_menu()
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
