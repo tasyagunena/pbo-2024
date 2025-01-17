@@ -345,3 +345,46 @@ print(f"Luas Persegi Panjang: {luas}")
 print(f"Keliling Persegi Panjang: {keliling}")
 
 syafril0.syafril1("Syafril","23090","info4","3,8")
+
+#>>>>>>>>>>> main iqra23051
+from class_guru import *
+def main():
+    daftar = DaftarGuru()
+
+    while True:
+        print("\nMenu:")
+        print("1. Tambah Guru")
+        print("2. Hapus Guru")
+        print("3. Tampilkan Daftar Guru")
+        print("4. Keluar")
+        
+        pilihan = input("Pilih opsi (1-4): ")
+
+        if pilihan == '1':
+            nama = input("Masukkan nama guru: ")
+            nip = input("Masukkan NIP guru: ")
+            mata_pelajaran = input("Masukkan mata pelajaran: ")
+            guru = Guru(nama, nip, mata_pelajaran)
+            daftar.tambah_guru(guru)
+            print("Guru berhasil ditambahkan.")
+
+        elif pilihan == '2':
+            nip = input("Masukkan NIP guru yang ingin dihapus: ")
+            daftar.hapus_guru(nip)
+            print("Guru berhasil dihapus (jika ada).")
+
+        elif pilihan == '3':
+            print("Daftar Guru:")
+            daftar.tampilkan_guru()
+
+        elif pilihan == '4':
+            print("Keluar dari program.")
+            break
+
+        else:
+            print("Pilihan tidak valid. Silakan coba lagi.")
+
+
+if __name__ == "__main__":
+    main()
+
