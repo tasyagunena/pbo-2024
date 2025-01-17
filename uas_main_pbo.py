@@ -32,9 +32,81 @@ elif npm == "093":
 elif npm == "071":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
      eflnz.pantai()
+# <<<<<<< main
 elif npm == "061":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya klara sibu
      skincare.skincare()
+# =======
+# <<<<<<< main
+elif npm == "051":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya iqra rindani
+     Elektronik.elektronik()
+# =======
+# <<<<<<< main
+elif npm == "080":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Lestari
+    taex()
+# =======
+# <<<<<<< main
+elif npm == "086":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Alifia risman
+    konversisuhu()
+# =======
+# <<<<<<< main
+elif npm == "066":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya jelia munziana
+     Warung.warung(), Warung.warung2 (), Warung.warung3 (), Warung.warung4 (), Warung.warung4()
+# =======
+# <<<<<<< main
+elif npm == "091":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Srinagita
+     ipt()
+# =======
+# <<<<<<< main
+elif npm == "077":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya nurul magfira
+    nurul() 
+# =======
+# <<<<<<< main
+elif npm == "103":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya siti khumayra A. habsy
+    main()
+# =======
+# <<<<<<< main
+elif npm == "060":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Efan umagapi
+     buku.buku(),buku.buku2(),buku.buku3()
+# =======
+# <<<<<<< main
+elif npm == "084":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya nursin
+    Nursin() 
+# =======
+# <<<<<<< patch-6
+elif npm == "058":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya marisa husen
+     BankAccount()
+# =======
+# <<<<<<< main
+elif npm == "055":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya sri fitri wulandari
+     film_saya()
+# =======
+ elif npm == "064":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
+     batu.batu()
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
+# >>>>>>> main
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
