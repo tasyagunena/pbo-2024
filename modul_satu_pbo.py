@@ -497,3 +497,18 @@ class syafril:
 
 def syafril1(nama,npm,kelas,ipk):
     print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
+
+
+
+# >>>>>>>>> Mujakar Syafiuddin
+def hitung_gaji_total(gaji_pokok, tunjangan):
+    return gaji_pokok + tunjangan
+
+def tampilkan_data(nama, nip, jabatan, gaji_pokok, tunjangan):
+    gaji_total = hitung_gaji_total(gaji_pokok, tunjangan)
+    print(f"Nama: {nama}")
+    print(f"NIP: {nip}")
+    print(f"Jabatan: {jabatan}")
+    print(f"Gaji Pokok: Rp{gaji_pokok:,}")
+    print(f"Tunjangan: Rp{tunjangan:,}")
+    print(f"Gaji Total: Rp{gaji_total:,}")
