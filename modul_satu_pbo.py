@@ -499,6 +499,36 @@ def syafril1(nama,npm,kelas,ipk):
     print(f"nama saya {nama} npm saya {npm} kelas saya {kelas} ipk saya {ipk}")
 
 
+# <<<<<<< main
+#>>>>>>>>>>>>>ini kontribusi dari iqra
+class Guru:
+    def __init__(self, nama, nip, mata_pelajaran):
+        self.nama = nama
+        self.nip = nip
+        self.mata_pelajaran = mata_pelajaran
+
+    def __str__(self):
+        return f"{self.nama} (NIP: {self.nip}) - {self.mata_pelajaran}"
+
+
+class DaftarGuru:
+    def __init__(self):
+        self.guru_list = []
+
+    def tambah_guru(self, guru):
+        self.guru_list.append(guru)
+
+    def hapus_guru(self, nip):
+        self.guru_list = [guru for guru in self.guru_list if guru.nip != nip]
+
+    def tampilkan_guru(self):
+        if not self.guru_list:
+            print("Daftar guru kosong.")
+        else:
+            for guru in self.guru_list:
+                print(guru)
+
+# =======
 
 # >>>>>>>>> Mujakar Syafiuddin
 def hitung_gaji_total(gaji_pokok, tunjangan):
@@ -512,3 +542,4 @@ def tampilkan_data(nama, nip, jabatan, gaji_pokok, tunjangan):
     print(f"Gaji Pokok: Rp{gaji_pokok:,}")
     print(f"Tunjangan: Rp{tunjangan:,}")
     print(f"Gaji Total: Rp{gaji_total:,}")
+# >>>>>>> main
