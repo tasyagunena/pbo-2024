@@ -346,6 +346,7 @@ print(f"Keliling Persegi Panjang: {keliling}")
 
 syafril0.syafril1("Syafril","23090","info4","3,8")
 
+# <<<<<<< main
 #>>>>>>>>>>> main iqra23051
 from class_guru import *
 def main():
@@ -388,3 +389,20 @@ def main():
 if __name__ == "__main__":
     main()
 
+# =======
+
+# >>>>>>>>>> Mujakar Syafiuddin
+from modul1 import*
+def main():
+    daftar_pegawai = [
+        {"nama": "John Doe", "nip": "123456789", "jabatan": "Manager", "gaji_pokok": 10000000, "tunjangan": 5000000},
+        {"nama": "Jane Doe", "nip": "987654321", "jabatan": "Staf", "gaji_pokok": 5000000, "tunjangan": 2000000}
+    ]
+
+    for i, pegawai in enumerate(daftar_pegawai, start=1):
+        print(f"\nPegawai {i}:")
+        tampilkan_data(pegawai["nama"], pegawai["nip"], pegawai["jabatan"], pegawai["gaji_pokok"], pegawai["tunjangan"])
+
+if __name__ == "__main__":
+    main()
+# >>>>>>> main
