@@ -345,3 +345,64 @@ print(f"Luas Persegi Panjang: {luas}")
 print(f"Keliling Persegi Panjang: {keliling}")
 
 syafril0.syafril1("Syafril","23090","info4","3,8")
+
+# <<<<<<< main
+#>>>>>>>>>>> main iqra23051
+from class_guru import *
+def main():
+    daftar = DaftarGuru()
+
+    while True:
+        print("\nMenu:")
+        print("1. Tambah Guru")
+        print("2. Hapus Guru")
+        print("3. Tampilkan Daftar Guru")
+        print("4. Keluar")
+        
+        pilihan = input("Pilih opsi (1-4): ")
+
+        if pilihan == '1':
+            nama = input("Masukkan nama guru: ")
+            nip = input("Masukkan NIP guru: ")
+            mata_pelajaran = input("Masukkan mata pelajaran: ")
+            guru = Guru(nama, nip, mata_pelajaran)
+            daftar.tambah_guru(guru)
+            print("Guru berhasil ditambahkan.")
+
+        elif pilihan == '2':
+            nip = input("Masukkan NIP guru yang ingin dihapus: ")
+            daftar.hapus_guru(nip)
+            print("Guru berhasil dihapus (jika ada).")
+
+        elif pilihan == '3':
+            print("Daftar Guru:")
+            daftar.tampilkan_guru()
+
+        elif pilihan == '4':
+            print("Keluar dari program.")
+            break
+
+        else:
+            print("Pilihan tidak valid. Silakan coba lagi.")
+
+
+if __name__ == "__main__":
+    main()
+
+# =======
+
+# >>>>>>>>>> Mujakar Syafiuddin
+from modul1 import*
+def main():
+    daftar_pegawai = [
+        {"nama": "John Doe", "nip": "123456789", "jabatan": "Manager", "gaji_pokok": 10000000, "tunjangan": 5000000},
+        {"nama": "Jane Doe", "nip": "987654321", "jabatan": "Staf", "gaji_pokok": 5000000, "tunjangan": 2000000}
+    ]
+
+    for i, pegawai in enumerate(daftar_pegawai, start=1):
+        print(f"\nPegawai {i}:")
+        tampilkan_data(pegawai["nama"], pegawai["nip"], pegawai["jabatan"], pegawai["gaji_pokok"], pegawai["tunjangan"])
+
+if __name__ == "__main__":
+    main()
+# >>>>>>> main
