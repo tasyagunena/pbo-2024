@@ -29,10 +29,10 @@ elif npm == "083":
 elif npm == "093":
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya DIKI
     ulang()
+elif npm == "071":
+    # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya Refalina Darwin
+     eflnz.pantai()
 else:
     # silahkan isi 2 (dua) baris Maksimal untuk memanggil fungsinya ???
     fasasdfa()
     
-  # dari refalina
-from modul_satu_pbo import Pantai
-Pantai().tampilkan("jikomalamo")
